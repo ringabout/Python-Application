@@ -56,6 +56,7 @@ def game(board, stdscr, rscore):
 棋盘由![1](material/1.png)矩阵组成，0 代表该位置上没有数字。basic 函数就是基于矩阵的运算，且以右移为基础移动。
 
 **![1](material/1.png)矩阵**：
+<br>
 ![2](material/2.png)
 
 
