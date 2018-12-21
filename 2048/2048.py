@@ -20,6 +20,8 @@ FILENAME = 'out.npy'
 def init():
     # 初始化棋盘
     # 初始棋盘 2 或 4 的随机数字
+    if FILENAME not in os.listdir():
+        np.save(FILENAME, 0)
     init_board = choice(np.zeros((4, 4), dtype=np.int))
     return init_board
 
@@ -260,6 +262,4 @@ def main(stdscr):
 
 
 if __name__ == "__main__":
-    if FILENAME not in os.listdir():
-        np.save(FILENAME, 0)
     wrapper(main)
