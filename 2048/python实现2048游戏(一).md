@@ -80,9 +80,8 @@ stdscr.addstr('You win')
 
 **这一节主要介绍了 2048 小游戏的基本知识，下一节将介绍实现 2048 小游戏的各个模块的逻辑。最后放一张实现效果图**
 
-<center>
-![捕获](material/捕获.PNG) </center>
+![捕获](material/捕获.PNG) 
 
-<canter> **想了解更多请关注：** </center>
+### **想了解更多请关注：** 
 
 ![img](https://mmbiz.qpic.cn/mmbiz_jpg/MnCc8lk8Gyv2n5rxvFGML9PqF5Oh91wIMOXInU0L4eYVauRJEP9qaJkHLQs3FmaPrALUzVN9I9pug08IeS1ic6w/640)
