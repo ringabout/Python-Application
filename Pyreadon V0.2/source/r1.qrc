@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>add.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>minus.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>layout.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>upon.png</file>
+  </qresource>
+</RCC>
