@@ -1,0 +1,5 @@
+@echo off
+set "exe=xxxx.exe"
+set "lnk=xxxx"
+mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\%lnk%.lnk""):b.TargetPath=""%~dp0%exe%"":b.WorkingDirectory=""%~dp0"":b.Save:close")
+echo Íê³É&pause
